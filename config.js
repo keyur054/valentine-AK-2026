@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://storage.googleapis.com/showflix_image/Tu%20Haiye%20Haali%20Aave%20-%20%20Gujarati%20Song%20%EF%BD%9C%20Om%20Baraiya%2C%20Saloni%20Raval%20%EF%BD%9C%20Jigardan%20Gadhavi%20%EF%BD%9C%20Rahul%20Munjariya%20(1).mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
