@@ -224,6 +224,7 @@ function setupMusicPlayer() {
         if (playPromise !== undefined) {
             playPromise.catch(error => {
                 console.log("Autoplay prevented by browser");
+                musicToggle.click();
                 musicToggle.textContent = config.music.startText;
             });
         }
